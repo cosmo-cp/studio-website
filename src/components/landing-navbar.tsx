@@ -8,9 +8,14 @@ export function LandingNavbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg bg-primary/20 flex items-center justify-center">
-            <div className="h-4 w-4 rounded-full bg-primary" />
-          </div>
+          <span className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-white shadow">
+            <img
+              src="/cosmo-logo.svg"
+              alt="Cosmo Studio Logo"
+              className="object-contain rounded-full"
+              style={{ background: 'transparent' }}
+            />
+          </span>
           <span className="text-xl font-bold tracking-tight">Cosmo Studio</span>
         </div>
         

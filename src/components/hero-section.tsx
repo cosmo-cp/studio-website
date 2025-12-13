@@ -162,9 +162,11 @@ export function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-sm text-muted-foreground/60"
+            className="text-sm text-muted-foreground/90"
           >
-            We never see your messages. You bring the API keys.
+            <span className="inline-block rounded-md bg-white/7 border border-white/10 px-3 py-1 backdrop-blur-sm text-muted-foreground">
+              We never see your messages. You bring the API keys.
+            </span>
           </motion.p>
         </div>
       </div>
