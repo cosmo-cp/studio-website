@@ -32,7 +32,7 @@ export function LandingPageContent() {
         {/* Performance metrics (e.g., "0ms Latency", "10+ Providers") */}
         <StatsSection />
 
-        {/* The "Why Cosmo" story */}
+        {/* The "Why Cosmo Studio" story */}
         <AboutSection />
 
         {/* Grid layout distinguishing "Now Available" vs "Roadmap" */}

@@ -7,14 +7,14 @@ export function AboutSection() {
         <div className="flex flex-col md:flex-row items-center gap-16">
           <div className="flex-1 space-y-8">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Why we built <span className="text-primary">Cosmo</span>
+              Why we built <span className="text-primary">Cosmo Studio</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               We were tired of switching between browser tabs to use different AI models.
               We wanted a native, fast, and private way to chat with our favorite LLMs.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Cosmo brings the power of GPT, Claude, and local models like Llama 3
+              Cosmo Studio brings the power of GPT, Claude, and local models like Llama 3
               into a single, beautiful desktop application. No more monthly subscriptions
               for a wrapper—just bring your own keys and pay for what you use.
             </p>

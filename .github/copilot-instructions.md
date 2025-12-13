@@ -1,4 +1,4 @@
-# COSMO — Copilot Instructions
+# COSMO STUDIO — Copilot Instructions
 
 **Purpose:**
 This Markdown file contains precise, actionable instructions for GitHub Copilot (or any AI coding assistant) to scaffold and implement the Cosmo landing page — a modern, high-conversion, dark-first SaaS landing page built with React (Next.js App Router preferred), Tailwind CSS, Shadcn/UI, Lucide React, and Framer Motion.
@@ -8,7 +8,7 @@ This Markdown file contains precise, actionable instructions for GitHub Copilot 
 
 Design fidelity requirement: The final landing page must visually match the shadcn landing page demo (https://shadcnstore.com/templates/dashboard/shadcn-dashboard-landing-template/landing#) as closely as possible. This means adopting the same layout, spacing, card styles, component primitives (Card, Button, Sheet, Accordion, Badge), Tailwind utility patterns (bg-card, text-muted-foreground, border, rounded-xl, backdrop-blur, etc.), and micro-interactions. Use the shadcn demo as the single-source visual reference when choosing spacing, typography scale, and component composition. Replace placeholder assets with production-ready SVGs and images that match the demo's look where needed.
 
-* **Product:** Cosmo — unified desktop chat app (macOS / Windows / Linux) with BYOK (Bring Your Own Key).
+* **Product:** Cosmo Studio — unified desktop chat app (macOS / Windows / Linux) with BYOK (Bring Your Own Key).
 * **Framework:** React (Next.js App Router preferred) or Vite if requested.
 * **Styling:** Tailwind CSS.
 * **Components:** Shadcn/UI (Radix primitives), Lucide React icons.
@@ -33,7 +33,7 @@ Design fidelity requirement: The final landing page must visually match the shad
 ## File Structure (suggested)
 
 ```
-cosmo-landing/
+cosmo-studio-landing/
 ├─ app/ (Next.js App Router)
 │  ├─ layout.tsx
 │  ├─ page.tsx
@@ -85,7 +85,7 @@ cosmo-landing/
     {/* Performance metrics (e.g., "0ms Latency", "10+ Providers") */}
     <StatsSection />
 
-    {/* The "Why Cosmo" story */}
+    {/* The "Why Cosmo Studio" story */}
     <AboutSection />
 
     {/* Grid layout distinguishing "Now Available" vs "Roadmap" */}
@@ -145,7 +145,7 @@ cosmo-landing/
 
 * **LandingNavbar.tsx**
 
-  * Sticky top, glassmorphism (`backdrop-blur`, `bg-white/5` in dark mode), compact logo, download links (macOS / Windows / Linux), CTA `Get Cosmo` primary button.
+  * Sticky top, glassmorphism (`backdrop-blur`, `bg-white/5` in dark mode), compact logo, download links (macOS / Windows / Linux), CTA `Get Cosmo Studio` primary button.
   * Keyboard accessible: `nav` landmark and `aria-label`.
 
 * **HeroSection.tsx**
@@ -222,7 +222,7 @@ Use these prompts when generating components:
 
 ## Microcopy Recommendations (for conversions)
 
-* Hero CTA: `Download Cosmo — Bring Your Own Key`.
+* Hero CTA: `Download Cosmo Studio — Bring Your Own Key`.
 * Small privacy note near download: `We never see your messages. You bring the API keys.`
 * Pricing CTA: `Start for free → Upgrade anytime`.
 

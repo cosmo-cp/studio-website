@@ -1,6 +1,9 @@
 {
-  "name": "cosmo-landing",
+  "name": "cosmo-studio-landing",
   "version": "0.1.0",
+  "author": {
+    "name": "Jayasurya"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",

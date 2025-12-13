@@ -77,7 +77,7 @@ export function HeroSection() {
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#00000000_0%,var(--primary)_50%,#00000000_100%)]" />
             <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-background px-3 py-1 text-sm font-medium text-primary backdrop-blur-3xl">
               <span className="flex h-2 w-2 rounded-full bg-primary mr-2 animate-pulse"></span>
-              Cosmo v1.0.0 has landed 🚀
+              Cosmo Studio v1.0.0 has landed 🚀
             </span>
           </motion.div>
 
@@ -252,7 +252,7 @@ export function HeroSection() {
                 {/* Previous Chat History (Faded) */}
                 <div className="flex justify-end opacity-40">
                   <div className="bg-primary/20 text-foreground px-4 py-2 rounded-2xl rounded-tr-sm max-w-[80%] text-sm">
-                    Hey Cosmo, help me with this SQL query.
+                    Hey Cosmo Studio, help me with this SQL query.
                   </div>
                 </div>
 

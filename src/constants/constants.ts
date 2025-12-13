@@ -61,7 +61,7 @@ export const TESTIMONIALS = [
   {
     name: 'Sarah Chen',
     handle: '@sarahchen_dev',
-    quote: 'Cosmo has completely replaced my browser tabs for AI chat. The local model support is a game changer.',
+    quote: 'Cosmo Studio has completely replaced my browser tabs for AI chat. The local model support is a game changer.',
     avatar: '/images/avatars/sarah.jpg',
   },
   {
@@ -81,7 +81,7 @@ export const TESTIMONIALS = [
 export const FAQS = [
   {
     question: 'Is my data private?',
-    answer: 'Yes. Cosmo is a local-first application. Your chats are stored on your device, and API requests go directly to the providers (OpenAI, Anthropic, etc.). We never see your messages.',
+    answer: 'Yes. Cosmo Studio is a local-first application. Your chats are stored on your device, and API requests go directly to the providers (OpenAI, Anthropic, etc.). We never see your messages.',
   },
   {
     question: 'Do I need to pay for API keys?',

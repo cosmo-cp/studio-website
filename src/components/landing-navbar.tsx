@@ -11,7 +11,7 @@ export function LandingNavbar() {
           <div className="h-8 w-8 rounded-lg bg-primary/20 flex items-center justify-center">
             <div className="h-4 w-4 rounded-full bg-primary" />
           </div>
-          <span className="text-xl font-bold tracking-tight">Cosmo</span>
+          <span className="text-xl font-bold tracking-tight">Cosmo Studio</span>
         </div>
         
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
@@ -34,7 +34,7 @@ export function LandingNavbar() {
               rel="nofollow noopener noreferrer"
             >
               <Download className="h-4 w-4" />
-              Get Cosmo
+              Get Cosmo Studio
             </a>
           </Button>
         </div>

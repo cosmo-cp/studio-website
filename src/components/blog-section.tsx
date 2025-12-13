@@ -3,14 +3,14 @@ import { ArrowRight } from 'lucide-react';
 
 const POSTS = [
   {
-    title: 'Introducing Cosmo 1.0',
+    title: 'Introducing Cosmo Studio 1.0',
     excerpt: 'The all-in-one AI command center is finally here. Learn about the journey and what comes next.',
     date: 'Dec 12, 2024',
     slug: '#',
   },
   {
     title: 'How to use Local Models with Ollama',
-    excerpt: 'A step-by-step guide to setting up local LLMs and connecting them to Cosmo for privacy-first chat.',
+    excerpt: 'A step-by-step guide to setting up local LLMs and connecting them to Cosmo Studio for privacy-first chat.',
     date: 'Dec 10, 2024',
     slug: '#',
   },

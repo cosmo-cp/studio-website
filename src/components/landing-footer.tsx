@@ -10,7 +10,7 @@ export function LandingFooter() {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="h-6 w-6 rounded bg-primary" />
-              <span className="text-lg font-bold">Cosmo</span>
+              <span className="text-lg font-bold">Cosmo Studio</span>
             </div>
             <p className="text-sm text-muted-foreground">
               The all-in-one AI command center for your desktop.
@@ -57,7 +57,7 @@ export function LandingFooter() {
         
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Cosmo Inc. All rights reserved.
+            © {new Date().getFullYear()} Cosmo Studio Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {/* Social icons could go here */}
